@@ -1,0 +1,680 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://jsd.onmicrosoft.cn/gh/SHSSEDU/LOGO@main/LOGO-removebg.png">
+  <link rel="icon" href="https://jsd.onmicrosoft.cn/gh/SHSSEDU/LOGO@main/LOGO-removebg.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="SHSSEDU">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="Markdown 入门基础本文来自https:&#x2F;&#x2F;markdown.com.cn&#x2F;. (更多内容请看这里) 什么是Mrakdown？Markdown 是一种轻量级的标记语言，可用于在纯文本文档中添加格式化元素。Markdown 由 John Gruber 于 2004 年创建，如今已成为世界上最受欢迎的标记语言之一。  专注于文字内容； 纯文本，易读易写，可以方便地纳入版本控制； 语法简单，没有什">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Markdown入门基础">
+<meta property="og:url" content="https://blog.shssedu.ac.cn/2023/08/08/Markdown%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/index.html">
+<meta property="og:site_name" content="SHSSEDU-博客">
+<meta property="og:description" content="Markdown 入门基础本文来自https:&#x2F;&#x2F;markdown.com.cn&#x2F;. (更多内容请看这里) 什么是Mrakdown？Markdown 是一种轻量级的标记语言，可用于在纯文本文档中添加格式化元素。Markdown 由 John Gruber 于 2004 年创建，如今已成为世界上最受欢迎的标记语言之一。  专注于文字内容； 纯文本，易读易写，可以方便地纳入版本控制； 语法简单，没有什">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-08-08T15:11:32.000Z">
+<meta property="article:modified_time" content="2023-08-08T15:11:47.741Z">
+<meta property="article:author" content="SHSSEDU">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>Markdown入门基础 - SHSSEDU-博客</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"blog.shssedu.ac.cn","root":"/","version":"1.9.5-a","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>SHSSEDU-博客</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="Markdown入门基础"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2023-08-08 23:11" pubdate>
+          2023年8月8日 晚上
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          4.3k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          37 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">Markdown入门基础</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <h1 id="Markdown-入门基础"><a href="#Markdown-入门基础" class="headerlink" title="Markdown 入门基础"></a>Markdown 入门基础</h1><p>本文来自<a target="_blank" rel="noopener" href="https://markdown.com.cn/">https://markdown.com.cn/</a>. (更多内容请看这里)</p>
+<h2 id="什么是Mrakdown？"><a href="#什么是Mrakdown？" class="headerlink" title="什么是Mrakdown？"></a>什么是Mrakdown？</h2><p><strong>Markdown</strong> 是一种轻量级的标记语言，可用于在纯文本文档中添加格式化元素。Markdown 由 John Gruber 于 2004 年创建，如今已成为世界上最受欢迎的标记语言之一。</p>
+<ol>
+<li>专注于文字内容；</li>
+<li>纯文本，易读易写，可以方便地纳入版本控制；</li>
+<li>语法简单，没有什么学习成本，能轻松在码字的同时做出美观大方的排版。</li>
+</ol>
+<p>使用 Markdown 与使用 Word 类编辑器不同。在 Word 之类的应用程序中，单击按钮以设置单词和短语的格式，并且，更改立即可见。而 Markdown 与此不同，当你创建 Markdown 格式的文件时，可以在文本中添加 Markdown 语法，以指示哪些单词和短语看起来应该有所不同。</p>
+<h2 id="为什么要使用-Markdown？"><a href="#为什么要使用-Markdown？" class="headerlink" title="为什么要使用 Markdown？"></a>为什么要使用 Markdown？</h2><p>当你可以通过按下界面中的按钮来设置文本格式时，为什么还要使用 Markdown 来书写呢？使用 Markdown 而不是 word 类编辑器的原因有：</p>
+<ul>
+<li>Markdown 无处不在。StackOverflow、CSDN、掘金、简书、GitBook、有道云笔记、V2EX、光谷社区等。主流的代码托管平台，如 GitHub、GitLab、BitBucket、Coding、Gitee 等等，都支持 Markdown 语法，很多开源项目的 README、开发文档、帮助文档、Wiki 等都用 Markdown 写作。</li>
+<li>Markdown 是纯文本可移植的。几乎可以使用任何应用程序打开包含 Markdown 格式的文本文件。如果你不喜欢当前使用的 Markdown 应用程序了，则可以将 Markdown 文件导入另一个 Markdown 应用程序中。这与 Microsoft Word 等文字处理应用程序形成了鲜明的对比，Microsoft Word 将你的内容锁定在专有文件格式中。</li>
+<li>Markdown 是独立于平台的。你可以在运行任何操作系统的任何设备上创建 Markdown 格式的文本。</li>
+<li>Markdown 能适应未来的变化。即使你正在使用的应用程序将来会在某个时候不能使用了，你仍然可以使用文本编辑器读取 Markdown 格式的文本。当涉及需要无限期保存的书籍、大学论文和其他里程碑式的文件时，这是一个重要的考虑因素。</li>
+</ul>
+<h2 id="工欲善其事，必先利其器"><a href="#工欲善其事，必先利其器" class="headerlink" title="工欲善其事，必先利其器"></a>工欲善其事，必先利其器</h2><p>Markdown 入门的最佳方式就是多使用它。由于有大量免费<a target="_blank" rel="noopener" href="https://markdown.com.cn/tools.html">工具</a>的存在，上手 Markdown 是很方便的。比较遗憾的一点是各平台可能采用不同语言实现的 Markdown 解析引擎，或采用同一解析引擎的不同版本，而且可能有不同程度的定制与扩展，这导致在不同平台上使用 Markdown 写作时体验并不完全一致。不过幸好对于大家公认的一些标准语法，各家都是支持的。</p>
+<p>你甚至都不需要下载任何程序，就可以使用<a target="_blank" rel="noopener" href="https://markdown.com.cn/editor/">在线 Markdown 编辑器</a> 来编写 Markdown。进入其站点就可以开始在左侧窗格中书写了。渲染后的文档在右侧窗格预览。</p>
+<p>阅读本指南时，你可以打开 <a target="_blank" rel="noopener" href="https://markdown.com.cn/editor/">在线 Markdown 编辑器</a> 。这样，你就可以一边学习 Markdown 语法一边练习了。熟悉 Markdown 之后，再选择一个顺手的 Markdown 的应用程序。</p>
+<h2 id="Markdown-的工作原理"><a href="#Markdown-的工作原理" class="headerlink" title="Markdown 的工作原理"></a>Markdown 的工作原理</h2><p>在使用 Markdown 格式书写时，文本内容存储在带有 <code>.md</code> 或 <code>.markdown</code> 扩展名的纯文本文件中。那然后呢？你的 Markdown 格式的文件如何转换为 HTML 或可打印的文档呢？</p>
+<p>简单来说，你需要一个能够处理 Markdown 文件的  <em>Markdown 应用程序</em> 。有许多应用程序可供选择，从简单的脚本到类似于 Microsoft Word 的桌面应用程序。尽管它们在视觉上有所不同，但所有应用程序都执行相同的操作。像 <a target="_blank" rel="noopener" href="https://markdown.com.cn/editor/">在线 Markdown 编辑器</a> 一样，它们都是将 Markdown 格式的文本转换为 HTML，以便可以在 Web 浏览器中显示。</p>
+<p>Markdown 应用程序使用一种称为  <em>Markdown 处理器</em> （也通常称为“解析器”或“实现”）的东西将获取到的 Markdown 格式的文本输出为 HTML 格式。此时，可以在 Web 浏览器中查看你的文档，或者将其与样式表组合并打印。</p>
+<p><strong>注意：</strong> Markdown 应用程序和处理器是两个单独的组件。为了简洁起见，在下图中，我将它们组合为一个元素（即 “Markdown应用程序”）。</p>
+<p>总而言之，这是一个四步的过程：</p>
+<ol>
+<li>使用文本编辑器或 Markdown 专用的应用程序创建 Markdown 文件。该文件应带有 <code>.md</code> 或 <code>.markdown</code> 扩展名。</li>
+<li>在 Markdown 应用程序中打开 Markdown 文件。</li>
+<li>使用 Markdown 应用程序将 Markdown 文件转换为 HTML 文档。</li>
+<li>在 web 浏览器中查看 HTML 文件，或使用 Markdown 应用程序将其转换为其他文件格式，例如 PDF。</li>
+</ol>
+<p>从你的角度来看，该过程将根据你使用的应用程序的不同而有所不同。例如，<a target="_blank" rel="noopener" href="https://markdown.com.cn/editor/">在线 Markdown 编辑器</a> 本质上将第 1-3 步组合到一个单一、无缝的界面中，你要做的就是在左窗格中键入内容，然后转换结果就在右窗格中就神奇地出现了。但是，如果你使用的是其他工具（例如带有静态网站生成器的文本编辑器），则会发现该过程更为明显。</p>
+<h2 id="Markdown-有什么用？"><a href="#Markdown-有什么用？" class="headerlink" title="Markdown 有什么用？"></a>Markdown 有什么用？</h2><p>Markdown 是做笔记、为网站创建内容以及生成可打印文档的快速、简便的方法。</p>
+<p>学习 Markdown 语法并不需要很长时间，一旦你知道如何使用它，你就可以在几乎所有地方使用 Markdown 进行书写了。大多数人使用 Markdown 来为网站创建内容，但是 Markdown 也可以很好地格式化从电子邮件到购物清单的所有内容。</p>
+<p>下面是一些你可以使用 Markdown 的场景。</p>
+<h3 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h3><p>Markdown 是为 web 而设计的，因此，市面上有很多专门用于创建网站内容的应用程序就不足为奇了。</p>
+<p>如果您熟悉 HTML、CSS和版本管理工具，请试试 [Jekyll]，这是一个广受欢迎的静态网站生成器，它能将 Markdown 文件并构建为 HTML 网站。这种方法的优势之一是 [GitHub Pages] 为 Jekyll 生成的网站提供免费托管服务。如果 Jekyll 不是你的理想之选。</p>
+<p>如果你是 WordPress 博主，你可以使用 <a target="_blank" rel="noopener" href="https://jetpack.com/support/markdown/">Jetpack 插件</a>实现对 Markdown 的支持。</p>
+<h3 id="文件资料"><a href="#文件资料" class="headerlink" title="文件资料"></a>文件资料</h3><p>Markdown 并不具备像 Microsoft Word 这样的文字处理程序的所有功能，但是对于创建基本文件（例如作业和信件）来说已经足够了。你可以使用 Markdown 文档创作工具来创建 Markdown 格式的文档并将其导出为 PDF 或 HTML 格式。PDF 格式是关键，因为一旦有了 PDF 文档，您就可以使用它进行任何操作：打印、通过电子邮件发送或将其上传到网站。</p>
+<p>这是我推荐的一些Markdown文档创作工具：</p>
+<ul>
+<li>现代编辑器<br>VSCode &#x2F; Atom</li>
+<li>传统编辑器<br>Vim &#x2F; Emacs &#x2F; Sublime Text &#x2F; Notepad++</li>
+<li>IDE 自带编辑器<br>IntelliJ IDEA &#x2F; Android Studio &#x2F; WebStorm</li>
+<li>专用编辑器<br>Ulysses &#x2F; Mou &#x2F; Typora &#x2F; Markpad</li>
+<li>在线编辑器<br>各种支持 Markdown 的网站都提供了<a target="_blank" rel="noopener" href="https://markdown.com.cn/editor/">在线 Markdown 编辑器</a></li>
+</ul>
+<h3 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h3><p>在几乎所有方面，Markdown 都是记笔记的理想语法。不幸的是，两个最受欢迎的笔记应用程序 <a target="_blank" rel="noopener" href="https://evernote.com/">Evernote</a> 和 <a target="_blank" rel="noopener" href="https://www.onenote.com/">OneNote</a> 目前都不支持 Markdown。好消息是，其他一些笔记应用程序 <em>是</em> 支持 Markdown 的：</p>
+<ul>
+<li>[Simplenote] 是适用于所有平台的免费、简单的笔记应用程序。</li>
+<li>[Notable] 是可以在各种平台上运行的笔记应用程序。</li>
+<li>[Bear] 是适用于 Mac 和 iOS 设备的类似 Evernote 的应用程序。默认情况下，它并不专门针对 Markdown 的，但是你可以启用 Markdown 兼容模式。</li>
+<li>[Boostnote] 自称是“专为程序员设计的开源笔记应用程序”。</li>
+</ul>
+<p>如果你无法放弃 Evernote，可以试试 <a target="_blank" rel="noopener" href="https://marxi.co/">Marxico</a>，一个专门针对 Evernote 的基于订阅付费的 Markdown编辑器，或在 Evernote 网站上使用 [Markdown Here] 插件。</p>
+<h3 id="书籍"><a href="#书籍" class="headerlink" title="书籍"></a>书籍</h3><p>想要自行出版小说？请试试 <a target="_blank" rel="noopener" href="https://leanpub.com/">Leanpub</a>，该服务可将你的 Markdown 格式的文件转换为电子书。Leanpub 以 PDF、EPUB 和 MOBI 文件格式输出你的图书。如果你要创建纸版书籍，可以将 PDF 文件上传到类似 <a target="_blank" rel="noopener" href="https://kdp.amazon.com/">Kindle Direct Publishing</a> 之类的服务提供商处。要了解有关使用 Markdown 编写和自行出版书籍的更多信息，请阅读 <a target="_blank" rel="noopener" href="https://medium.com/techspiration-ideas-making-it-happen/how-i-wrote-and-published-my-novel-using-only-open-source-tools-5cdfbd7c00ca">此博文</a>。</p>
+<h3 id="演示文稿"><a href="#演示文稿" class="headerlink" title="演示文稿"></a>演示文稿</h3><p>信不信由你，你可以将 Markdown 格式的文件转换成演示文稿。在 Markdown 中创建演示文稿需要一点时间来适应，但是一旦你掌握了它，你就能体会到比使用 PowerPoint 或 Keynote 之类的应用程序更快、更容易。<a target="_blank" rel="noopener" href="https://remarkjs.com/">Remark</a>（<a target="_blank" rel="noopener" href="https://github.com/gnab/remark">GitHub 仓库</a>）和 <a target="_blank" rel="noopener" href="https://jdan.github.io/cleaver/">Cleaver</a>（<a target="_blank" rel="noopener" href="https://github.com/jdan/cleaver">GitHub 仓库</a>）一样，是一种基于浏览器的、流行的 Markdown 幻灯片工具。如果你使用的是 Mac，并且希望安装一个应用程序来使用的话，请试试 <a target="_blank" rel="noopener" href="https://www.decksetapp.com/">Deckset</a> 或 <a target="_blank" rel="noopener" href="https://marked2app.com/">Marked</a>。</p>
+<h3 id="邮件"><a href="#邮件" class="headerlink" title="邮件"></a>邮件</h3><p>如果你需要发送大量电子邮件，并且对大多数电子邮件提供商网站上可用的格式设置控件感到厌倦，那么你将很高兴地发现有一种使用 Markdown 编写电子邮件的简便方法：[Markdown Here] 是一个免费、开源的浏览器扩展程序，可将 Markdown 格式的文本转换为可用于发送的 HTML。</p>
+<h3 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h3><p>Markdown 非常适合技术文档。像 GitHub 这样的公司越来越多地转向使用 Markdown 来创建其文档了，请查看此 <a target="_blank" rel="noopener" href="https://github.com/blog/1939-how-github-uses-github-to-document-github">博文</a> 以了解如何将 Markdown 格式的文档迁移到 [Jekyll]。如果你是为产品或服务编写文档，请试试以下的便捷工具：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://readthedocs.org/">Read the Docs</a> 可以将你所开源的 Markdown 文件生成文档网站。只需将你的 GitHub 仓库连接到他们的服务，然后你就可以将内容推送到该仓库中，Read the Docs 会完成其余的工作。他们还为 <a target="_blank" rel="noopener" href="https://readthedocs.com/">商业实体提供服务</a>。</li>
+<li>[MkDocs] 是一个快速、简单的静态站点生成器，专门用于构建项目文档。文档源文件使用 Markdown 编写，并使用一个 YAML 配置文件进行配置。MkDocs 有多个 <a target="_blank" rel="noopener" href="https://www.mkdocs.org/user-guide/styling-your-docs/">内置主题</a>，包括移植自 <a target="_blank" rel="noopener" href="https://readthedocs.org/">Read the Docs</a> 的文档主题。最新的一个主题是 <a target="_blank" rel="noopener" href="https://squidfunk.github.io/mkdocs-material/">MkDocs Material</a>。</li>
+<li>[Docusaurus] 是一个静态网站生成器，专门用于创建文档网站。它支持翻译、搜索和版本控制。</li>
+<li><a target="_blank" rel="noopener" href="https://vuepress.vuejs.org/">VuePress</a> 是基于 <a target="_blank" rel="noopener" href="https://vuejs.org/">Vue</a> 构建的静态站点生成器，并针对编写技术文档进行了优化。</li>
+<li>[Jekyll] 前面已经提到过它了，但它也是将 Markdown 文件生成文档网站的一个不错的选择。如果你选择 Jekyll，请务必试试 <a target="_blank" rel="noopener" href="https://idratherbewriting.com/documentation-theme-jekyll/">Jekyll 文档主题</a>。</li>
+</ul>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>Markdown入门基础</div>
+      <div>https://blog.shssedu.ac.cn/2023/08/08/Markdown入门基础/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>SHSSEDU</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2023年8月8日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2023/08/08/Markdown%E8%AF%AD%E6%B3%95%E9%80%9F%E6%9F%A5%E8%A1%A8/" title="Markdown语法速查表">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Markdown语法速查表</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2023/08/08/%E5%85%B3%E4%BA%8E%E8%B4%A1%E7%8C%AEGitHub/" title="关于贡献GitHub">
+                        <span class="hidden-mobile">关于贡献GitHub</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
