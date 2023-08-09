@@ -4,6 +4,58 @@
   
   
   <entry>
+    <title>Windows装系统必看</title>
+    <link href="/2023/08/09/windows/"/>
+    <url>/2023/08/09/windows/</url>
+    
+    <content type="html"><![CDATA[<p><strong>Windows 系统下载</strong></p><table><thead><tr><th><a href="https://latest10.win/?iui.su">Latest10</a></th><th>快速获取原版 windows 系统镜像</th></tr></thead><tbody><tr><td><a href="https://next.itellyou.cn/?iui.su">itellyou</a></td><td>十余年持续提供可靠的原版系统</td></tr><tr><td><a href="https://www.sysmini.com/?iui.su">sysmini</a></td><td>提供极简 Windows 系统下载</td></tr><tr><td><a href="http://www.pggho.com/forum-36-1.html?iui.su">pggho</a></td><td>青苹果 gho 系统镜像下载</td></tr></tbody></table><p><strong>当电脑系统没问题</strong>时可以将系统做备份，将备份拷贝至 u 盘或<strong>网盘</strong>中以备不时之需。</p><p>平时需要提前准备  <strong>U 盘启动</strong> ，U 盘启动制作十分简单，仅需以下两步！</p><ul><li>U 盘「16G 以上」 买个便宜的即可。</li><li><a href="http://www.wepe.com.cn/download.html">微 PE 工具箱</a> 或 <a href="https://rufus.ie/zh/?iui.su">rufus</a>、<a href="https://www.ventoy.net/en/index.html">Ventoy</a> 制作 U 盘启动。</li></ul><p>当系统出现问题时，插上 u 盘在 BIOS（进入 BIOS 根据自己的硬件搜索，不同品牌进入 BIOS 方式不同）</p><p>在 BIOS 设置 u 盘启动为优先启动，进入 u 盘启动中将之前备份的系统还原即可。</p><hr><blockquote><p>U 盘中常备</p></blockquote><ul><li>网卡驱动<ul><li><a href="http://www.drivergenius.com/wangka/?iui.su">驱动精灵带网卡版</a>或 <a href="http://www.360.cn/qudongdashi/?iui.su">360 驱动带网卡版</a></li></ul></li><li>系统镜像<ul><li>ghost 镜像 或 <strong>原版纯净系统</strong></li></ul></li><li>正常电脑系统备份</li></ul><p>日常可以灵活变通，在 U 盘启动制作完毕后，可以存放 <strong>ghost 系统镜像</strong> + <strong>原版系统</strong> + <strong>正常的系统备份</strong>到 U 盘中。</p><p>以上操作需要在日常系统没有问题的时候操作，如果仅仅是电脑无法联网，可以查看<a href="https://iui.su/2953/">手机怎么给电脑联网？</a></p><p>如无法开机（非硬件问题）需要重装系统，又没有提前制作 U 盘启动可以找一台能够连接 U 盘的电脑制作 u 盘启动，例如：网吧</p><p><strong>上述操作如无法理解，直接找电脑店花钱解决。</strong></p><h2 id="相关推荐"><a href="#相关推荐" class="headerlink" title="相关推荐"></a>相关推荐</h2><p>b 站大神出的小白装机教程，比较详细看完之后就可以将硬件完好的组装。</p><p><a href="https://www.bilibili.com/video/BV1BG4y137mG/">https://www.bilibili.com/video/BV1BG4y137mG/</a></p><p>硬件茶谈制作的硬件装机全网最详细的视频教程。</p><p>小白装机视频版权归，b 站用户 远古装机猿所有。</p><p><a href="https://www.bilibili.com/video/av82168269">https://www.bilibili.com/video/av82168269</a><br><a href="https://www.bilibili.com/video/av82295204">https://www.bilibili.com/video/av82295204</a><br><a href="https://www.bilibili.com/video/av82450327">https://www.bilibili.com/video/av82450327</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技巧</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>windows</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Adobe 赢政天下 For Windows @vposy</title>
+    <link href="/2023/08/09/adobe/"/>
+    <url>/2023/08/09/adobe/</url>
+    
+    <content type="html"><![CDATA[<p>赢政天下 Adobe 大师版 For Windows 是赢政天下 @vposy 大神出品的最新 Adobe 系列破解软件，包含了 Adobe 全系破解版，百度网盘如没有开通会员速度较慢，推荐使用百度网盘按次付费，或在百度网盘设置 — 传输 — 开启优化速率，对热门资源速度有提升。</p><p>赢政天下解压密码为：**@vposy**</p><p><a href="https://weibo.com/vposy"> <strong>vposy 微博</strong></a></p><p>除微博外任何地方均为假冒发布页，谨防受骗。 </p><p>下载链接需要访问新浪微博关注 @vposy 获取下载链接，关注后刷新在微博置顶中获取下载地址。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技巧</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Adobe</tag>
+      
+      <tag>Windows</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>文字转语音，edge大声朗读音频导出</title>
     <link href="/2023/08/09/tts/"/>
     <url>/2023/08/09/tts/</url>
